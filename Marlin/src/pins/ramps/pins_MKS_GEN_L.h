@@ -50,4 +50,11 @@
   #define Y_CS_PIN 63
 #endif
 
+#define Y2_STEP_PIN                           26
+#define Y2_DIR_PIN                            28
+#define Y2_ENABLE_PIN                         24
+#ifndef Y2_CS_PIN
+  #define Y2_CS_PIN                           42
+#endif
+
 #include "pins_RAMPS.h"
